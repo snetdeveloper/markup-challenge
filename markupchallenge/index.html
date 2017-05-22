@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--title - this is the title of this html file-->
+        <title>Williams Sonoma</title>
+
+        <!--this is external style-->
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+
+
+    <body>
+
+    <!--main article for forms-->
+
+        <article>
+
+            <!--main header of the page-->
+            <header id="main-heading">
+                <img src="assets/logo.png">
+            </header>
+
+            <!--main section of the page-->
+            <section>
+
+                <article>
+                    <header >
+                        <nav id="nav-heading">
+                            <ul>
+                                <li><a href="#cookware">COOKWARE</a></li>
+                                <li><a href="#cooks">COOKS' TOOLS</a></li>
+                                <li><a href="#cultery">CUTLERY</a></li>
+                                <li><a href="#electrics">ELECTRICS</a></li>
+                                <li><a href="#bakeware">BAKEWARE</a></li>
+                                <li><a href="#food">FOOD</a></li>
+                                <li><a href="#table">TABLETOP & BAR</a></li>
+                                <li><a href="#home">HOMEKEEPING</a></li>
+                                <li><a href="#outdoor">OUTDOOR</a></li>
+                                <li><a href="#sale">SALE</a></li>
+                                <li id="navlast"><a href="#Williams" >WILLIAMS-SONOMA HOME</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <section></section>
+                    <footer></footer>
+                </article>
+
+                <article>
+                    <header id="nav-heading1">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a>Home  ></a>
+                                </li>
+                                <li>
+                                    <a>HomeKeeping  ></a>
+                                </li>
+                                <li>
+                                    <a>Aprons  ></a>
+                                </li>
+                                <li>
+                                    <a>Adult Aprons  ></a>
+                                </li>
+                                <li>
+                                    <a style="color:#111;">Williams-Sonoma Classic Apron,French Blue</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <section>
+                        <div class="aboveImage">
+                            <img id="currentImg" src="assets/product-large-a.jpg" alt="product-large-a.jpg" title="product-large-a.jpg">
+                            <div id="belowimg">
+                                <img class="img1"src="assets/product-small-a.jpg" alt="product-small-a.jpg" title="product-small-a.jpg" onclick="showImage('product-large-a.jpg');">
+                                <img class="img1" src="assets/product-small-b.jpg"  alt="product-small-b.jpg" title="product-small-b.jpg" onclick="showImage('product-large-b.jpg');">
+                                <img class="img1" src="assets/product-small-c.jpg"  alt="product-small-c.jpg" title="product-small-c.jpg" onclick="showImage('product-large-c.jpg');">
+                                <img class="img1"src="assets/product-small-d.jpg"  alt="product-small-d.jpg" title="product-small-d.jpg" onclick="showImage('product-large-d.jpg');">
+                            </div>
+                        </div>
+                        <div class="sidetext">
+                            <h1 itemprop="name">Williams Sonoma Classic Apron, French Blue</h1>
+                            <p>
+                                A generously sized apron is a necessity in any kitchen, and ours will
+                                brighten yours with lively color.Sewn of thick cotton, it can be
+                                personalized or monogrammed with up to nine characters, all the
+                                same height,embroidered in your choice of color.An apron of this
+                                quality makes a welcome gift for any cook.
+                            </p>
+                            <ul>
+                                <li>
+                                    Durable 100% cotton construction.
+                                </li>
+                                <li>
+                                    Adjustable neckband ensures a good fit.
+                                </li>
+                                <li>
+                                    Roomy front pockets hold small tools.
+                                </li>
+                                <li>
+                                    Machine-wash.
+                                </li>
+                            </ul>
+                            <span itemprop="price" class="price-amount">$19.95</span>
+                            <br/>
+
+                            <br/>
+                            <div>
+                                <input type="number" pattern="[0-9]*" min="0" max="99" maxlength="2" placeholder="1"  value="">
+                            </div>
+                            <br/>
+                            <div>
+                                <img id="myBtncart" src="assets/button-add-to-cart.png" onclick="changePicture();">
+                            </div>
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close">x</span>
+                                    <p>Added to the basket</p>
+                                </div>
+
+                            </div>
+                            <hr>
+                            <img   src="assets/arrow-collapsed.png" class="accordion">EXPANDED</img>
+                            <div class="panel">
+                                <p>This section is expanded.This section is collapsed by clicking on "Expanded" text.This section is expanded.This section is collapsed by clicking on "Expanded" text. </p>
+                            </div>
+
+                            <hr>
+                            <img  src="assets/arrow-collapsed.png" class="accordion">COLLAPSED</img>
+                                <div class="panel">
+                                    <p>This section is expanded.This section is collapsed by clicking on "Expanded" text.This section is expanded.This section is collapsed by clicking on "Expanded" text. </p>
+                                </div>
+
+                            <hr>
+                            <img   src="assets/arrow-collapsed.png" class="accordion">COLLAPSED</img>
+                                <div class="panel">
+                                    <p>This section is expanded.This section is collapsed by clicking on "Expanded" text.This section is expanded.This section is collapsed by clicking on "Expanded" text. </p>
+                                </div>
+
+                            <hr>
+                        </div>
+                    </section>
+                    <footer></footer>
+                 </article>
+
+            </section>
+
+            <!--footer of the page-->
+            <footer id="main-footer">
+                <p>© 2017 Williams-Sonoma Inc., All Rights Reserved |
+                    <a href="http://www.williams-sonoma.com/customer-service/legal-statement.html#terms">Terms and Conditions</a>
+                    <span style="color: #e81818">(Updated March 2016)</span>
+                    |
+                    <a href="http://www.williams-sonoma.com/customer-service/legal-statement.html#privacy">Privacy Policy</a>
+                    |
+                    <a href="http://www.williams-sonoma.com/customer-service/legal-statement.html#legal">Legal Statement</a>
+
+                </p>
+            </footer>
+        </article>
+
+        <script src="script.js"></script>
+    </body>
+</html>
